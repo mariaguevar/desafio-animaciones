@@ -316,11 +316,21 @@
     margin-top: 68px;
 }
 
+.carrusel li{
+    list-style: none;
+    width: 100%;
+}
+
 
 .img-pestanas {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.carrusel{
+    display: flex;
+    padding: 0;
 }
 
 .contenido-pestanas{
