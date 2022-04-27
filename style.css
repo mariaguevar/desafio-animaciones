@@ -314,6 +314,7 @@
     width: 100%;
     height: 100%;
     margin-top: 68px;
+    overflow: hidden;
 }
 
 .carrusel li{
@@ -331,6 +332,7 @@
 .carrusel{
     display: flex;
     padding: 0;
+    width: 400%;
 }
 
 .contenido-pestanas{
