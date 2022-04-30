@@ -306,14 +306,13 @@
 }
 
 .banner-pestanas {
+    display: grid;
     grid-column: 1/span2;
+    grid-template-columns: 100%;
+    grid-template-rows: 430px;
     background-color: #ffeed8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     width: 100%;
-    height: 100%;
-    margin-top: 68px;
     overflow: hidden;
 }
 
@@ -322,31 +321,39 @@
     width: 100%;
 }
 
-
-.img-pestanas {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .carrusel{
     display: flex;
     padding: 0;
-    width: 400%;
-    animation: carrusel 20s linear infinite alternate;
+    margin-right: 5px;
+    width: 300%;
+    animation: carrusel 15s linear infinite alternate;
+
+}
+.img-pestanas {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    margin-top: 65px;
+    
+}
+.img-pestanas1{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    margin-top: 65px;
+  
 }
 
 @keyframes carrusel{
     /*1era foto*/
     0% {margin-left: 0;}
-    25% {margin-left: 0;}
+    30% {margin-left: 0;}
     /*2da foto*/
     35% {margin-left: -100%;}
-    60% {margin-left: -100%;}
+    65% {margin-left: -100%;}
     /*3era foto*/
-    70% {margin: left -200%;}
-    100% {margin: left -200%;}
-
+    70% {margin-left:  -200%;}
+    100% {margin-left:  -200%;}
 }
 
 .contenido-pestanas{
